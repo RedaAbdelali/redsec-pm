@@ -11,8 +11,8 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 from supabase import create_client
 
 # ---------------- CONFIG ----------------
-SUPABASE_URL = "https://qnngbikchksjkudneyla.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFubmdiaWtjaGtzamt1ZG5leWxhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU5NjIwMDgsImV4cCI6MjA3MTUzODAwOH0.hlOQu30fFgKWGkRWWjGffCChS9X_XiquW5wy9oYJE6Q"
+SUPABASE_URL = "https://<your-project>.supabase.co"
+SUPABASE_KEY = "<your-anon-key>"
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # ---------------- PASSWORD UTIL ----------------
