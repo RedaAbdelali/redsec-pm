@@ -35,7 +35,7 @@ redsec-pm/
 ## ⚡ Getting Started
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/redsec-pm.git
+git clone https://github.com/RedaAbdelali/redsec-pm.git
 cd redsec-pm
 ```
 ### 2. Configure Supabase
